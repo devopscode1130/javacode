@@ -22,7 +22,7 @@ pipeline {
 
 				sh 'echo "stage 2"'
 
-                javac hellojava.java
+               sh 'javac hellojava.java'
 
             }
 
@@ -34,7 +34,7 @@ pipeline {
 
 				sh 'echo "stage 2"'
 
-                java hellojava
+		sh 'java hellojava'
 
             }
 
